@@ -1,5 +1,6 @@
 package com.projeto.course.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 import java.time.Instant;
@@ -16,6 +17,7 @@ public class Payment {
 
     @OneToOne
     @MapsId
+    @JsonIgnore
     private Order order;
 
     public Payment() {
