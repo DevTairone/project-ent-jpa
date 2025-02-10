@@ -1,18 +1,18 @@
 <h2>Checklist</h2>
 
- Criar projeto Spring Boot Java
+ &#9989; Criar projeto Spring Boot Java
  
- Implementar modelo de domínio
+ &#9989; Implementar modelo de domínio
  
- Estruturar camadas lógicas: resource, service, repository
+ &#9989; Estruturar camadas lógicas: resource, service, repository
  
- Configurar banco de dados de teste (H2)
+ &#9989; Configurar banco de dados de teste (H2)
  
- Povoar o banco de dados
+ &#9989; Povoar o banco de dados
  
- CRUD - Create, Retrieve, Update, Delete
+ &#9989; CRUD - Create, Retrieve, Update, Delete
  
- Tratamento de exceções
+ &#9989; Tratamento de exceções
  
 
 
