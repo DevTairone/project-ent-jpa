@@ -12,6 +12,8 @@ import java.util.Objects;
 @Table(name = "tb_order_item")
 public class OrderItem {
 
+    private static final long serialVersionUID = 1L;
+
     @EmbeddedId
     private OrderItemPK id = new OrderItemPK();
     private Integer quantity;

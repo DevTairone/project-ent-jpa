@@ -11,6 +11,8 @@ import java.util.Set;
 @Table(name = "tb_product")
 public class Product {
 
+    private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
